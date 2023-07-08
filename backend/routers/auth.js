@@ -8,7 +8,7 @@ router.use(cors());
 //I had given the below code to restrict the cors error in the frontend side
 router.use(
     cors({
-        origin: "https://login-assign.onrender.com",
+        origin: "http://localhost:3000",
         methods: "POST",
     })
 )
